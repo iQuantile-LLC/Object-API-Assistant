@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>iQUantile.DotLib.OAA</id>
+    <version>0.0.1.0</version>
+    <title>ObjectAPIAssistant</title>
+    <authors>2TakarDeveloper</authors>
+    <owners>iQuantile</owners>
+    <licenseUrl>empty</licenseUrl>
+    <projectUrl>empty</projectUrl>
+    <iconUrl>empty</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Object API Assistant is developed for Object oriented API calls . No need to worry about JSON parsing.</description>
+    <releaseNotes>initial release</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>API OOP</tags>
+  </metadata>
+  <files>
+    <file src="C:\Users\Tazim\source\repos\iQuantile.DotLib\ObjectAPIAssistant\bin\Release\ObjectAPIAssistant.dll" target=""></file>
+  </files>
+</package>
