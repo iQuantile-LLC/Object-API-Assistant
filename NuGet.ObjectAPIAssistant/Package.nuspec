@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>iQuantile.DotLib.OAA</id>
+    <version>1.0.1</version>
+    <title>ObjectAPIAssistant</title>
+    <authors>2TakarDeveloper</authors>
+    <owners>iQuantile</owners>
+    <description>
+      Object API Assistant is developed for Object oriented API calls . No need to worry about JSON parsing.
+    </description>
+    <releaseNotes>
+      Official Release
+    </releaseNotes>
+    <summary>
+     
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://github.com/iQuantile-LLC/iQuantile.DotLib</projectUrl>
+    <iconUrl>https://avatars3.githubusercontent.com/u/37725852?s=400&amp;u=338ab9fd53da53a967c2250ca7bfa6a9fa4c65f4&amp;v=4</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/iQuantile-LLC/iQuantile.DotLib/blob/master/LICENSE</licenseUrl>
+    <copyright>Copyright  2018</copyright>
+    <dependencies>
+        <group targetFramework="net40">
+          <dependency id="log4net" version="1.2.10" />
+        </group>
+    </dependencies>
+    <references></references>
+    <tags>OOP API</tags>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>

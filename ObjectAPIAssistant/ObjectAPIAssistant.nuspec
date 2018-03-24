@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>iQUantile.DotLib.OAA</id>
+    <id>iQuantile.DotLib.OAA</id>
     <version>0.0.1.0</version>
     <title>ObjectAPIAssistant</title>
     <authors>2TakarDeveloper</authors>
