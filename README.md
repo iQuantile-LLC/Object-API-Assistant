@@ -5,7 +5,7 @@ Object API helper is designed for Object Oriented programmers to call RESTful AP
 
 Please feel free to fork and submit pull requests to the develop branch.
 
-If you are reporting an issue it is really useful if you can supply an example Excel file as this makes debugging much easier and without it we may not be able to resolve any problems.
+
 
 
 
