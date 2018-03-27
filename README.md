@@ -110,6 +110,20 @@ Incase you wish to get a HTTP Response Message object and handle the Message Man
 ```c#
 HttpResponseMessage message = await assistant.CreateObjectResponseAsync(Countries);
 ```
+## File Upload
+
+Files can be uploaded as StreamContent. Update the request URI just like before. And pass the File path in the function.File name and key value. Default key="file"
+
+```c#
+OpenFileDialog dialog=new OpenFileDialog();
+if (dialog.ShowDialog() == DialogResult.OK)
+  {
+    await  assistant.UploadFileStream(dialog.FileName, "File.csv","file");
+  }
+
+```
+
+
 
 # PUT
 
