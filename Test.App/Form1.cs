@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Windows.Forms;
 using ObjectAPIAssistant;
 
@@ -16,8 +9,11 @@ namespace Test.App
         public Form1()
         {
             InitializeComponent();
-             ApiAssistant<List<string>> assistant=new ApiAssistant<List<string>>("");
+
+             ApiAssistant<List<Country>> assistant=new ApiAssistant<List<Country>>("http://battuta.medunes.net/api/");
              
+           
+
         }
     }
 }

@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>iQuantile.DotLib.OAA</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>ObjectAPIAssistant</title>
     <authors>2TakarDeveloper</authors>
     <owners>iQuantile</owners>
@@ -10,7 +10,7 @@
       Object API Assistant is developed for Object oriented API calls . No need to worry about JSON parsing.
     </description>
     <releaseNotes>
-      Official Release
+      Added File upload function
     </releaseNotes>
     <summary>
      Call API's using your class object!

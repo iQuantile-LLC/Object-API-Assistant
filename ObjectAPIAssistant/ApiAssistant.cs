@@ -95,17 +95,20 @@ namespace ObjectAPIAssistant
         }
 
         /// <summary>
-        /// This Method will upload file to server
-        /// Feed the fully qualified Filepath to the parameter
-        /// Ex. FileName from File Dialogue.
+        /// Uploads the file as stream content
+        /// set the key of the form data in key parameter
+        /// 
         /// </summary>
-        /// <param name="filePath">Fully Qualified File Name</param>
-        /// <returns>HTTP Response Message</returns>
-        public async Task<HttpResponseMessage> UploadFileAsByteArray(string filePath)
+        /// <param name="filePath">Fully qualified file name</param>
+        /// <param name="key">Key value for HTTP request</param>
+        /// <param name="filename"></param>
+        /// <returns>HTTP Response message</returns>
+        public async Task<HttpResponseMessage> UploadFileStream(string filePath,string filename, string key = "file")
         {
-            byte[] fileBytes = File.ReadAllBytes(filePath);
-            ByteArrayContent file=new ByteArrayContent(fileBytes);
-            return await Client.PostAsync(BaseUrl + RequestUri, file);
+            MultipartFormDataContent formData=new MultipartFormDataContent();
+            StreamContent stream = new StreamContent(File.OpenRead(filePath));
+            formData.Add(stream, key, filename);
+            return await Client.PostAsync(BaseUrl + RequestUri, formData);
         }
 
 
