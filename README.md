@@ -1,4 +1,4 @@
-Object API Helper
+Object API Assistant
 ================
 
 Object API helper is designed for Object Oriented programmers to call RESTful API's using Class Objects.Let the Library handle the rest! 
